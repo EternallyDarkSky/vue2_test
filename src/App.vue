@@ -1,15 +1,19 @@
 <template>
     <div id="app" class="container">
-        <my-xhr />
+        <my-promise/>
     </div>
 </template>
     
 <script>
-import MyXhr from "./components/xhr/MyXhr.vue"
+import MyXhr from "components/xhr/MyXhr.vue"
+import MyPromise from "components/Mypromise/MyPromise.vue"
+
 export default {
     name: "App",
     components: {
         MyXhr,
+        MyPromise,
+    
     },
 
 };
